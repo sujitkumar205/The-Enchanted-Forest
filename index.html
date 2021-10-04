@@ -43,13 +43,13 @@
       <div class="row no-gutters align-items-center">
         <div class="col-lg-6">
           <div id="headingGroup" class = "text-center d-none d-lg-block mt-5">
-            <h1 class="">The <span>/</span> Enchanted <span>/</span> Forest</h1>
-            <h1 class="">The <span>/</span> Enchanted <span>/</span> Forest</h1>
-            <h1 class="">The <span>/</span> Enchanted <span>/</span> Forest</h1>
-            <h1 class="">The <span>/</span> Enchanted <span>/</span> Forest</h1>
-            <h1 class="">The <span>/</span> Enchanted <span>/</span> Forest</h1>
-            <h1 class="">The <span>/</span> Enchanted <span>/</span> Forest</h1>
-            <h1 class="">The <span>/</span> Enchanted <span>/</span> Forest</h1>
+            <h1 class="">Loveliest <span>Of</span> Trees, <span>The</span> Cherry Now</h1>
+            <h1 class="">Loveliest <span>Of</span> Trees, <span>The</span> Cherry Now</h1>
+            <h1 class="">Loveliest <span>Of</span> Trees, <span>The</span> Cherry Now</h1>
+            <h1 class="">Loveliest <span>Of</span> Trees, <span>The</span> Cherry Now</h1>
+            <h1 class="">Loveliest <span>Of</span> Trees, <span>The</span> Cherry Now</h1>
+            <h1 class="">Loveliest <span>Of</span> Trees, <span>The</span> Cherry Now</h1>
+            <h1 class="">Loveliest <span>Of</span> Trees, <span>The</span> Cherry Now</h1>
           </div>
         </div>
         <div class="col-lg-6">
@@ -65,8 +65,8 @@
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row no-gutters justify-content-center">
-            <div class="col-lg-10 blurb">
-              <h2>Loveliest of Trees, the Cherry Now</h2>
+            <div class="col-lg-10 blurb mb-4 mb-md-0">
+              <h2>Loveliest Of Trees, The Cherry Now</h2>
               <img src="forest-images\leaves.png" alt="" class="d-none d-lg-inline">
               <p class="lead pb-4 pb-md-0">Loveliest of trees, the cherry now <br>
                 Is hung with bloom along the bough, <br>
@@ -83,8 +83,8 @@
         </div>
         <div class="col-md-6 text-center order-1 order-md-1">
           <div class="row no-gutters justify-content-center">
-            <div class="col-lg-10 blurb">
-              <h2>Loveliest of Trees, the Cherry Now</h2>
+            <div class="col-lg-10 blurb mb-4 mb-md-0">
+              <h2>Loveliest Of Trees, The Cherry Now</h2>
               <img src="forest-images\leaves.png" alt="" class="d-none d-lg-inline">
               <p class="lead pb-4 pb-md-0">Now, of my threescore years and ten, <br>
                 Twenty will not come again, <br>
@@ -103,8 +103,8 @@
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row no-gutters justify-content-center">
-            <div class="col-lg-10 blurb">
-              <h2>Loveliest of Trees, the Cherry Now</h2>
+            <div class="col-lg-10 blurb mb-4 mb-md-0">
+              <h2>Loveliest Of Trees, The Cherry Now</h2>
               <img src="forest-images\leaves.png" alt="" class="d-none d-lg-inline">
               <p class="lead pb-4 pb-md-0">And since to look at things in bloom <br>
                 Fifty springs are little room, <br>
@@ -121,5 +121,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <script>
+      $(function()
+      {
+        $(document).scroll(function(){
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+      });
+    </script>
+
   </body>
 </html>
