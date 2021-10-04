@@ -47,6 +47,7 @@ body{
     color: #6D9886;
     font-weight: 100;
     line-height: 2;
+    font-size: 1.75rem;
 }
 
 .blurb h2{
@@ -64,5 +65,13 @@ body{
     #headingGroup h1{
         font-weight: 100;
         font-size: 1.5rem;
+    }
+
+    .blurb h2{
+        font-weight: 100;
+        font-size: 1.25rem;
+    }
+    .blurb p{
+        font-size: 1.15rem;
     }
 }
