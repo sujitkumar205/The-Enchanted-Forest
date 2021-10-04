@@ -43,13 +43,6 @@ body{
     font-size: 2.5rem;
 }
 
-@media (max-width: 1200px){
-    #headingGroup h1{
-        font-weight: 100;
-        font-size: 2rem;
-    }
-}
-
 .blurb p{
     color: #6D9886;
     font-weight: 100;
@@ -60,4 +53,17 @@ body{
     color: #F6F6F6;
     font-weight: 100;
     font-size: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+    .blurb h2{
+        font-weight: 100;
+        font-size: 1.6rem;
+    }
 }
